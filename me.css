@@ -1,0 +1,43 @@
+body {background-color:antiquewhite;}
+#me h1 {color: indianred;}
+
+/* navigation division: format the list items so that they display across the page instead of in a vertical list */
+#navigation li {
+    display: inline;
+    padding: 10px;
+    }
+
+/* navigation division: format the menu generally including background colour and style */
+
+#navigation {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align:center;
+      background-color:darksalmon;
+    border-radius: 4px;
+  }
+
+/* navigation division: format the unordered list so that it appears directly below the title of the page and below the edge of the colour background */
+#navigation ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+  }
+
+
+/* navigation division: format the link items so that they are sienna, spaced apart, and do not have underlines */
+#navigation a {
+    text-decoration: none;
+    color:sienna;
+    padding: 4px 4px 4px 4px;
+}
+
+/* image division: reshape the image inserted and add a border to the image*/
+#image img{
+    width: 400px;
+    border-style: dashed;
+    border-color:darksalmon;
+}

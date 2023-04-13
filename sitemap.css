@@ -1,0 +1,55 @@
+/* This is the css for the page of site map */
+
+/* This is for formatting the section below the navigation */
+
+h2 {
+    color: cadetblue;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3ex;
+}
+
+table {
+    margin: 0px auto;
+    margin-top: 5ex;
+}
+
+th, td {
+    padding: 20px 30px 20px 30px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+    color: rgb(69, 67, 67);
+    font-size: 20px;
+}
+
+td a {
+    color: rgb(82, 78, 78);
+    text-decoration: none;
+}
+
+/* To make underline appear when the mouse is hovering */
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* This is a convenient link for visitors to go back to the top of this page */
+
+#back {
+    margin-top: 5em;
+    text-align: center;
+}
+
+#back a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+#back a:hover {
+    color: rgb(164, 203, 204);
+}

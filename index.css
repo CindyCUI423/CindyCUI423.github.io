@@ -1,0 +1,132 @@
+/* This is the css for the home page of my website */
+
+
+/* This is the display area for my video works on the home page (will be updated continuously) */
+
+.p1 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(141, 69, 18);
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.p2 {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:rgb(236, 177, 1);
+    text-align: center;
+}
+
+#p3 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(141, 69, 18);
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.poster {
+    float: left;
+    width: 400px;
+    height: 600px;
+    margin: 1em 0.5em;
+}
+
+#horizontalVersion{
+    width: 816px;
+    margin-left: 8px;
+}
+
+#posters {
+    margin: 0em 6.2em;
+}
+
+#myphoto2 {
+    float: left;
+    width: 180px;
+    margin: 0em 2em;
+}
+
+#introduction {
+    line-height: 2em;
+    margin: 4em 9em;
+}
+
+/* This is to format the text introduction of the intro video */
+
+#VideoIntroduction {
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 9em;
+    margin-right: 9em;
+}
+
+/* This is to center the intro video on the home page */
+
+#introVideo {
+    margin-left: 14em;
+    margin-right: 14em;
+    margin-bottom: 0.5em;
+}
+
+/* This is a convenient link for visitors to go back to the top of this page */
+
+#back {
+    margin-top: 5em;
+    text-align: center;
+}
+
+#back a{
+    text-decoration:none;
+    color: cadetblue;
+}
+
+#back a:hover {
+    color: rgb(164, 203, 204);
+}
+
+
+/* This is a button to toggle mode for the page */
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+#buttonSection {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+
+.btn2 {
+    background-color: #ffa23e;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 450;
+  }
+
+  .btn2:hover {
+    background-color: #fbc78f;
+  }

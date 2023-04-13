@@ -1,0 +1,101 @@
+/* This is the css for the page of Me and My Passion */
+
+/* This is for formatting the section of About Me & My Passion */
+
+h2 {
+    color: cadetblue;
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 3ex;
+    margin-top: 3ex;
+}
+
+#greeting {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#myphoto img {
+    float: left;
+    width: 280px;
+    margin-right: 5ex;
+}
+
+/* This is for formatting the section of Mission Statement */
+
+#mission {
+    font-size: 20px;
+    color: lightslategrey;
+}
+
+.text-li {
+    color: rgb(37, 151, 163);
+    text-indent: 4ex;
+}
+
+.clear {
+    clear: left;
+}
+
+.photos1-5 img {
+    float: left;
+    width: 192px;
+    margin: 0.5em 0.5em;
+}
+
+/* This is a convenient link for visitors to go back to the top of this page */
+
+#back {
+    margin-top: 5em;
+    text-align: center;
+}
+
+#back a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+#back a:hover {
+    color: rgb(164, 203, 204);
+}
+
+/* This is a button to toggle mode for the page */
+
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+#buttonSection {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 1px;
+}
+
+
+.btn2 {
+    background-color: #ffa23e;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 450;
+  }
+
+  .btn2:hover {
+    background-color: #fbc78f;
+  }

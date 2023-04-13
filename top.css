@@ -1,0 +1,147 @@
+/* This is the css for the home page of my website */
+
+/* A design for the top part of every page on my website */
+
+#cover {
+    width: 1420px;
+    height: 300px;
+    margin: 0.3em;
+}
+
+/* This is for the indentation of the left and right sides of the page */
+
+#main-body {
+    margin-left: 11em;
+    margin-right: 11em;
+    margin-bottom: 2em;
+}
+
+/* Set the font and line spacing of text in the body */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 5ex;
+}
+
+
+/* This is for formatting the navigation */
+
+
+/* To temporarily hide the drop-down menus */
+
+#navigation {
+    overflow: hidden;
+    background-color: slategray;
+  }
+
+
+#navigation a {
+    float: left;
+    font-size: 16px;
+    color:gainsboro;
+    text-align:center;
+    text-decoration: none;
+    height: 3em;
+}
+
+#navigation a, .btn {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.btn {
+    height: 3em;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .btn {
+    color: gainsboro;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family:inherit;
+}
+
+/* To change the color of text in navigation when the mouse is hovering */
+
+#navigation a:hover .dropdown:hover .btn {
+    color: snow;
+}
+
+/* To temporarily hide the drop-down menus and set their style */
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: slategray;
+    width: inherit;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* To turn the links inside the drop-down menus into blocks and set their color and width */
+
+.dropdown-menu a {
+    display: block;
+    width: inherit;
+    color: gainsboro;
+    text-decoration: none;
+
+} 
+
+/* To change the color of text in drop-down menues when the mouse is hovering */
+
+.dropdown-menu a:hover {
+    color: snow;
+}
+
+/* To make the drop-down menus to appear when the mouse is hovering */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+} 
+
+
+/* This is for formatting "Welcome to Xinyi's Video World" */
+
+h1{
+    color:slategray;
+    font-weight:lighter;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+/* This is to resize and center the social media buttons */
+
+#socialButtons {
+    text-align: center;
+    color: gray;
+    padding-top: 30px;
+}
+
+#socialButtons img {
+    width: 30px;
+    padding-left: 10px;
+}
+
+/* This is a convenient link for visitors to go back to the top of this page */
+
+#back {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#back a{
+    text-decoration:none;
+    color: cadetblue;
+}
+
+#back a:hover {
+    color: rgb(164, 203, 204);
+}

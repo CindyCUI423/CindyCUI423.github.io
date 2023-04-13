@@ -1,0 +1,134 @@
+/* This is the css of the page Editing*/
+
+  h2 {
+  color: cadetblue;
+  font-weight: lighter;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 1.5ex;
+  margin-top: 3ex;
+  }
+
+  h3 {
+    font-size: 30px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      color:rgb(236, 177, 1);
+      text-align: left;
+      margin-top: 2em;
+  }
+
+  h4 {
+    font-size: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      color:rgb(168, 74, 1);
+      text-align: left;
+      margin-top: 1em;
+  }
+
+  h5 {
+    font-size: 18px;
+      font-weight: bold;
+      color:rgb(0, 0, 0);
+      text-align: center;
+      margin-top: 1em;
+  }
+
+  /* Make 4 information cards with grey background and shadow */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 262.5px;
+    height: 406px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color:black;
+    font-size: 10px;
+    
+  }
+
+  .cardText {
+    line-height: 20px;
+    text-align: left;
+    width: 218px;
+    height: 190px;
+  }
+
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+
+  /* This is a button to toggle mode for the page */
+
+  body {
+  background-color: white;
+  color: black;
+  }
+
+  .dark-mode {
+  background-color: black;
+  color: white;
+  }
+
+
+  #buttonSection {
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 1px;
+  }
+
+
+  .btn2 {
+  background-color: #ffa23e;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 450;
+  }
+
+  .btn2:hover {
+  background-color: #fbc78f;
+  }
+  

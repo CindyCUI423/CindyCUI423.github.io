@@ -1,0 +1,63 @@
+/* My sourselog formatting */
+
+/* This is a convenient link for visitors to go back to home page */
+
+#homepage {
+    text-align: left;
+    text-indent: 4em;
+    margin-bottom: 2em;
+}
+
+#homepage a {
+    text-decoration:none;
+    color: cadetblue;
+}
+
+/* To change the color of the link when the mouse is hovering */
+
+#homepage a:hover {
+    color: rgb(164, 203, 204);
+}
+
+
+h1 {
+    text-indent: 2em;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/* This is the section of 2 tables */
+
+caption {
+    font-size: 16pt;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1em;
+}
+
+table {
+    border-radius: 2em;
+    border-width: 10em;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 3em;
+    }
+
+table, td, th{
+    border: 0.5px solid gray;
+    border-collapse: collapse;
+}
+
+/* To set the internal space in the cells of the table */
+
+th, td{
+    padding: 2px 10px 2px 10px;
+    border-width: 2pt}
+
+#t1 th{background-color: lightblue;}
+
+#t2 th{background-color:pink;}
+
