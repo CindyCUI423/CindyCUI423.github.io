@@ -1,0 +1,256 @@
+<!-- This is the page of Shooting -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="shooting.css">
+    <script src="Shooting.js"></script>
+    <script src="dark.js"></script>
+</head>
+<body>
+
+<!-- A design for the top part of every page on my website -->
+
+<img id="cover" src="Images/cover.jpg" alt="Image failed to load">
+
+<!-- A button to switch between white mode and black mode -->
+<div id="buttonSection"><button class="btn2" onclick="myFunction()">Toggle Mode</button></div>
+
+<h1>Welcome to Xinyi's Video World</h1>
+<hr>
+
+<!-- This is the navigation of my website -->
+
+<div id="navigation">
+    <a class="top" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="btn">Me and My Passion</button>
+                <div class="dropdown-menu">
+                    <a href="passion.html#me">About Me & My Passion</a><br>
+                    <hr>
+                    <a href="passion.html#site">About This Website</a>
+                </div>
+        </div> 
+        <div class="dropdown">
+            <button class="btn">Videos</button>
+                <div class="dropdown-menu">
+                    <a href="Exploring_Beer.html">Exploring Beer</a><br>
+                    <hr>
+                    <a href="Loving_Light_and_Shadow.html">Loving Light and Shadow</a>
+                    <p></p><hr>
+                    <a href="A_Bite_of_Qingdao.html">A Bite of Qingdao</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Skills and Tips</button>
+                <div class="dropdown-menu">
+                    <a href="Shooting.html">Shooting</a><br>
+                    <hr>
+                    <a href="Editing.html">Editing</a><br>
+                    <p></p><hr>
+                    <a href="learn_more.html">Learn More</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Site Map & Image Map</button>
+                <div class="dropdown-menu">
+                    <a href="sitemap.html">Site Map</a><br>
+                    <hr>
+                    <a href="imagemap.html">Image Map</a>
+                </div>
+        </div> 
+    <a class="top" href="feedback.html">Feedback</a>
+    <a class="top" href="sourcelog.html">Source Log</a>
+    <a class="top" href="storyboard.html">Storyboard</a>
+    <a class="top" href="reflection.html">Reflection</a>
+    <a class="top" href="Validation.html">Validation</a>
+    <a class="top" href="assignment.html">Assignment</a>
+</div>
+<hr>
+
+<!-- This is the section below the navigation -->
+     
+<div id="main-body">
+
+    <h2>How to Shoot As a Professional</h2>
+
+    <p>Nowadays, shooting videos can be quite easy because anyone who has a mobile phone can readily record videos by clicking on the record button in camera mode. 
+        But how to shoot videos better as a professional?</p>
+    <p>Although I don't consider myself professional enough, I can still share my relevant experience to make your first attempt go more smoothly.</p>
+        
+    
+    <h3>Useful Theories</h3>
+
+    <p>You may think theory is dull and why not just do it, but I would say there are some necessary theories for making good videos.</p>
+
+
+    <h4>The Concept of Shots</h4>
+
+    <p>The shots are defined by the amount of subject matter that's included within the frame of the screen.
+        Although there are many different kinds of shots in the cinema, most of them are subsumed under the six basic categories:</p>
+
+    <!-- A flip card to show some examples of different types of shots -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="Images/shot_types2.png" alt="Image failed to load" style="width:572px;height:430px;">
+        </div>
+        <div class="flip-card-back">
+            <img src="Images/shot_types.png" alt="Image failed to load" style="width:572px;height:430px;">
+        </div>
+      </div>
+    </div>
+
+    <!-- An unordered list of 6 basic shots -->
+    <ul id="shotsTypes">
+        <li>the Extreme Long Shot</li>
+        <li>the Long Shot</li>
+        <li>the Full Shot</li>
+        <li>the Medium Shot</li>
+        <li>the Close-up</li>
+        <li>the Extreme Close-up</li>
+      </ul>
+
+    <!-- Clear the area below the list on the left of the flip card -->
+    <div class="clear">
+    </div>
+
+
+    <h4>Camera Movement</h4>
+    
+    <p>To make nice videos, you are more likely to move your cameras rather than just keeping it in one position throughout, then you need to know how to better move your camera.
+        There are several basic moving camera shots for you to choose while shooting.
+    </p>
+
+    <!-- An expanding grid to introduce 7 kinds of camera movements -->
+    
+    <p>Click the cells below to know more about each type of camera movement</p>
+
+    <!-- A row of 7 buttons with each of them showing the name of 1 camera movement -->
+    <div class="row">
+    <div class="column" onclick="openTab('b1');" style="background:rgb(234, 206, 185);">Pans</div>
+    <div class="column" onclick="openTab('b2');" style="background:rgb(239, 196, 164);">Tilts</div>
+    <div class="column" onclick="openTab('b3');" style="background:rgb(240, 190, 152);">Dolly Shots</div>
+    <div class="column" onclick="openTab('b4');" style="background:rgb(233, 181, 142);">Push In</div>
+    <div class="column" onclick="openTab('b5');" style="background:rgb(239, 174, 124);">Pull Out</div>
+    <div class="column" onclick="openTab('b6');" style="background:rgb(240, 166, 109);">Zoom Shots</div>
+    <div class="column" onclick="openTab('b7');" style="background:rgb(230, 148, 85);">Roll</div>
+    </div>
+  
+    <!-- The hidden part of the expanding grid (only appear after being clicked)-->
+
+    <div id="b1" class="containerTab" style="display:none;background:rgb(234, 206, 185)">
+    <!-- Add a close button -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Pans</h5>
+    <p>The camera pan directs a camera horizontally left or right. The pan camera movement is typically achieved with a tripod head, but can also be done handheld or with a stabilizer.
+    </p>
+    </div>
+  
+    <div id="b2" class="containerTab" style="display:none;background:rgb(239, 196, 164)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Tilts</h5>
+    <p>Camera tilts are just like pans, only vertical. Tilt camera movements direct a camera upward or downward.
+    </p>
+    </div>
+  
+    <div id="b3" class="containerTab" style="display:none;background:rgb(240, 190, 152)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Dolly Shots</h5>
+    <p>Dolly shots, sometimes called trucking or tracking shots, are taken from a moving vehicle. The vehicle literally moves in, out, or alongside a moving figure or object while the action is being photographed.
+    </p>
+    </div>
+
+    <div id="b4" class="containerTab" style="display:none;background:rgb(233, 181, 142)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Push In</h5>
+    <p>A push-in moves the camera closer to a subject typically with a dolly camera movement or Steadicam. Push-ins can draw the audience's attention toward a specific detail. Filmmakers also push-in toward characters to try and infer what is occurring internally. </p>
+    </div>
+
+    <div id="b5" class="containerTab" style="display:none;background:rgb(239, 174, 124)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Pull Out</h5>
+    <p>The camera pull out is the exact opposite of the push in. A pull out is a smooth camera movement that moves the camera further away from a subject. This movement causes the subject to grow smaller while simultaneously revealing their surroundings.</p>
+    </div>
+
+    <div id="b6" class="containerTab" style="display:none;background:rgb(240, 166, 109)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Zoom Shots</h5>
+    <p>Although zooms are technically not a camera movement they do create movement within the image. Zooms change the focal length of a camera lens to either zoom in (magnify) or zoom out (de-magnify) the size of a subject in the frame.</p>
+    </div>
+
+    <div id="b7" class="containerTab" style="display:none;background:rgb(230, 148, 85)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h5>Roll</h5>
+    <p>The camera roll is a rotational camera movement that rotates the camera over its side on its long axis. Rolls can be dizzying and unnatural.</p>
+    </div>
+
+    <div id="bookCover"><img src="Images/understanding_movies.png" alt="Image failed to load"></div>
+    <p>If you want to know more about theories, I highly recommended Understanding Movies, which is a well-known book in the field of cinema. You will find it interesting, especially if you are a film lover, because the author explains the theories with a wealth of examples from films.</p>
+
+    <!-- Add a image link of a YouTube video -->
+    <a href="https://www.youtube.com/watch?v=IiyBo-qLDeM">
+      <img id="cameraMovement" alt="Image failed to load" src="Images/camera_movement.png">
+    </a>
+
+    <p>Also, don't forget that you can always learn many things through watching videos. I just found one talking about camera movement in a way easy for people to understand. Please click the cover of the video to watch it if you are interested.</p>
+
+    <!-- To claer the area -->
+    <div class="clear">
+    </div>
+
+    <h3>Shooting Equipment</h3>
+
+    <p>As a beginner, you may not have a camera. Don't be worried! I don't think lack of professional equipment can prevent you from making great videos. 
+       As long as you have enough enthusiasm and a good idea, you can make good videos with only a mobile phone. Let me show you an example.
+    </p>
+
+    <!-- Embed 2 YouTube videos -->
+    <div id="twoVideos">
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/ZZgAACCUL34?controls=0">
+    </iframe>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/fvUdEgP8B3U?controls=0">
+    </iframe>
+    </div>
+
+
+    <p>The video on the left-hand side is 3 Minutes, a short film of Apple directed by Peter Chen. Every shot in this film is finished using IphoneX. You can see how Peter achieved this by watching the behind the scenes video on the right-hand side.
+        You may find dolly shots play an important role in 3 Minutes by drawing the audience into the perspective of the young boy. IphoneX is quite ideal to achieve this since it is much lighter than professional equipment. 
+    </p>
+
+    <p>You see, you can always find the advantages of the devices you currently have and use them to your advantage.</p>
+
+    <h3>Good Way to Improve</h3>
+
+    <p>Apart from practicing shooting more, a good way to improve your skill is imitating.</p>
+    <p>For example, if you can imitate a favourite film clip by yourself. You will definitely learn a lot in the process by constantly thinking about why the director shot in this way.</p>
+    <p>I see many people are keen to imitate Wong Kar Wai's film because his style is so unique. Why not try to imitate the films of the director you like? </p>
+
+    <img src="Images/imitating.png" alt="Image failed to load" style="width: 1000px;">
+
+
+    <!-- Add 2 social media buttons-->
+    <div id="socialButtons">
+      <p>Click to contact me or follow my feed</p>
+      <a target="_blank" href="https://www.facebook.com/profile.php?id=100083841635814">
+        <img src="Images/facebook.png" alt="Image failed to load">
+      </a>
+      <a target="_blank" href="https://vimeo.com/user153894036">
+        <img src="Images/vimeo.png" alt="Image failed to load">
+      </a>
+    </div>
+
+
+    <!-- This is a convenient link for visitors to go back to the top of this page -->
+    <p id="back"><a href="#cover">-Back to top-</a></p>
+
+</div>
+</body>
+</html>

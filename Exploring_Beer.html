@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Beer 寻味啤酒香</title>
+    <link rel="stylesheet" href="Exploring_Beer.css">
+    <link rel="stylesheet" href="top.css">
+    <script src="photogallery.js"></script>
+    <script src="dark.js"></script>
+</head>
+<body>
+
+<!-- A design for the top part of every page on my website -->
+
+<img id="cover" src="Images/cover.jpg" alt="Image failed to load">
+
+<div id="buttonSection"><button class="btn2" onclick="myFunction()">Toggle Mode</button></div>
+
+<h1>Welcome to Xinyi's Video World</h1>
+<hr>
+
+<!-- This is the navigation of my website -->
+
+<div id="navigation">
+    <a class="top" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="btn">Me and My Passion</button>
+                <div class="dropdown-menu">
+                    <a href="passion.html#me">About Me & My Passion</a><br>
+                    <hr>
+                    <a href="passion.html#site">About This Website</a>
+                </div>
+        </div> 
+        <div class="dropdown">
+            <button class="btn">Videos</button>
+                <div class="dropdown-menu">
+                    <a href="Exploring_Beer.html">Exploring Beer</a><br>
+                    <hr>
+                    <a href="Loving_Light_and_Shadow.html">Loving Light and Shadow</a>
+                    <p></p><hr>
+                    <a href="A_Bite_of_Qingdao.html">A Bite of Qingdao</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Skills and Tips</button>
+                <div class="dropdown-menu">
+                  <a href="Shooting.html">Shooting</a><br>
+                  <hr>
+                  <a href="Editing.html">Editing</a><br>
+                  <p></p><hr>
+                  <a href="learn_more.html">Learn More</a>
+                </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn">Site Map & Image Map</button>
+              <div class="dropdown-menu">
+                  <a href="sitemap.html">Site Map</a><br>
+                  <hr>
+                  <a href="imagemap.html">Image Map</a>
+              </div>
+      </div> 
+    <a class="top" href="feedback.html">Feedback</a>
+    <a class="top" href="sourcelog.html">Source Log</a>
+    <a class="top" href="storyboard.html">Storyboard</a>
+    <a class="top" href="reflection.html">Reflection</a>
+    <a class="top" href="Validation.html">Validation</a>
+    <a class="top" href="assignment.html">Assignment</a>
+</div>
+<hr>
+
+<div id="main-body">
+
+<!-- This is the introduction of Exploring Beer -->
+
+<h2>Exploring Beer</h2>
+
+<img id="Beer-Poster" src="Images/Exploring_Beer_Poster.jpg" alt="Image failed to load">
+
+<div id="introduction"> <p><strong>Exploring Beer</strong> is a documentary about the beer culture of Qingdao, a northern city in China.</p>
+  <p>The film starts with Tsingtao beer and explores its culture. It introduces the development of the beer  culture, the disappearance of traditional beer pubs and the rise of craft beer bars, showing the unique beer culture of Qingdao and the people behind it.</p>
+  <p>The film was completed in June 2022 and took 15 days overall. Although my role in this project was that of producer (at the request of the event organisers), I actually shot and edited the film on my own.</p>
+</div>
+
+<div id="clear">
+</div>
+  
+<!-- Inline the video of Exploring Beer with a controller so that we can play, pause or adjust the volume as we want-->
+
+<h3>Play it if you are interested</h3>
+     
+<video id="Video" width="960" height="540" controls>
+<source src="exploring_beer_video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<!-- This is a slideshow image gallery to display some photos related to my video work -->
+
+<h3>Get to know the behind-the-scenes story</h3>
+
+<p>Our small creative team consists of Theresa who is the main character driving the story forward in the video, Jingyu who is our interpreter and me who works as a producer, cameraman and editor.</p>
+<p>During the time, we met so many kind and interesting people who shared their love of beer and Qingdao with us. I can also feel the love of life in them.</p>
+<p>To be honest, I once thought beer is nothing more than a kind of drink. However, this experience makes me realize that beer can be a motivation of one's life, a connection between people and a symbol of a city.</p>
+
+<!-- Slideshow container -->
+     
+<div id="slideshow-container">
+
+<!-- Full-width images with page number and text block(including title and comment) -->
+  
+    <div class="mySlides">
+    <!-- Page number -->
+    <div class="numbertext">1 / 10</div>
+    <!-- Photo and its size -->
+    <img src="Images/g1.png" alt="Image failed to load" style="width:100%">
+    <!-- Text block -->
+    <div class="text-block"> 
+    <h4>Cheers</h4>
+    <p>After the day's shooting, we each bought a bottle of wine to take home.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="Images/g2.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Teamwork</h4>
+      <p>I was teaching Theresa how to use the camera.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="Images/g3.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Recording</h4>
+      <p>I was desperate to capture every word of the interviewees for fear of missing something wonderful.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="Images/g4.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Interviewing</h4>
+      <p>Controlling two cameras while interviewing can be very stressful!</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="Images/g5.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Brewing beer</h4>
+      <p>Rio was brewing beer at his lovely studio.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="Images/g6.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Communication</h4>
+      <p>This is a cross-culture communication.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="Images/g7.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Beer in a plastic bag</h4>
+      <p>Beer in a plastic bag is a feature of Qingdao.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="Images/g8.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>The sick duckling</h4>
+      <p>During the shoot, Li Yan's duck got sick and we had to pause to come to the vet.</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="Images/g9.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Qingdao, a city of beer</h4>
+      <p>During the shoot, we came across this wall with the words "Qingdao, a city where you will have no friend if you don't drink".</p>
+    </div>
+    </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="Images/g10.png" alt="Image failed to load" style="width:100%">
+    <div class="text-block"> 
+      <h4>Shooting beer</h4>
+      <p>The first shot of this video was finished at my accommodation with the help of my roommate. It took us many tries to get a satisfying shot.</p>
+    </div>
+    </div>
+
+    <!-- Next and previous buttons for visitors to flip over (set the style of the two buttons using symbol reference)-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles below the photos-->
+
+<div style="text-align:center">
+
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
+  <span class="dot" onclick="currentSlide(10)"></span> 
+  
+</div>
+
+<!-- Add 2 social media buttons-->
+<div id="socialButtons">
+  <p>Click to contact me or follow my feed</p>
+  <a target="_blank" href="https://www.facebook.com/profile.php?id=100083841635814">
+    <img src="Images/facebook.png" alt="Image failed to load">
+  </a>
+  <a target="_blank" href="https://vimeo.com/user153894036">
+    <img src="Images/vimeo.png" alt="Image failed to load">
+  </a>
+</div>
+
+<!-- This is a convenient link for visitors to go back to the top of this page -->
+<p id="back"><a href="#cover">-Back to top-</a></p>
+
+</div>
+</body>
+</html>

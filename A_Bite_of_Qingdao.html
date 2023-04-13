@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Bite of Qingdao 馋</title>
+    <link rel="stylesheet" href="A_Bite_of_Qingdao.css">
+    <link rel="stylesheet" href="top.css">
+    <script src="photogallery.js"></script>
+    <script src="dark.js"></script>
+</head>
+<body>
+
+<!-- A design for the top part of every page on my website -->
+
+<img id="cover" src="Images/cover.jpg" alt="Image failed to load">
+
+<div id="buttonSection"><button class="btn2" onclick="myFunction()">Toggle Mode</button></div>
+
+<h1>Welcome to Xinyi's Video World</h1>
+<hr>
+
+<!-- This is the navigation of my website -->
+
+<div id="navigation">
+    <a class="top" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="btn">Me and My Passion</button>
+                <div class="dropdown-menu">
+                    <a href="passion.html#me">About Me & My Passion</a><br>
+                    <hr>
+                    <a href="passion.html#site">About This Website</a>
+                </div>
+        </div> 
+        <div class="dropdown">
+            <button class="btn">Videos</button>
+                <div class="dropdown-menu">
+                    <a href="Exploring_Beer.html">Exploring Beer</a><br>
+                    <hr>
+                    <a href="Loving_Light_and_Shadow.html">Loving Light and Shadow</a>
+                    <p></p><hr>
+                    <a href="A_Bite_of_Qingdao.html">A Bite of Qingdao</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Skills and Tips</button>
+                <div class="dropdown-menu">
+                  <a href="Shooting.html">Shooting</a><br>
+                  <hr>
+                  <a href="Editing.html">Editing</a><br>
+                  <p></p><hr>
+                  <a href="learn_more.html">Learn More</a>
+                </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn">Site Map & Image Map</button>
+              <div class="dropdown-menu">
+                  <a href="sitemap.html">Site Map</a><br>
+                  <hr>
+                  <a href="imagemap.html">Image Map</a>
+              </div>
+      </div> 
+    <a class="top" href="feedback.html">Feedback</a>
+    <a class="top" href="sourcelog.html">Source Log</a>
+    <a class="top" href="storyboard.html">Storyboard</a>
+    <a class="top" href="reflection.html">Reflection</a>
+    <a class="top" href="Validation.html">Validation</a>
+    <a class="top" href="assignment.html">Assignment</a>
+</div>
+<hr>
+
+<div id="main-body">
+
+    <!-- This is the introduction of Exploring Beer -->
+
+    <h2>A Bite of Qingdao</h2>
+
+    <div id="posterposition">
+    <img id="Poster" src="Images/A_Bite_of_Qingdao_poster.PNG" alt="Image failed to load">
+    </div>
+
+    <div id="introduction"> 
+    <p><strong>A Bite of Qingdao</strong> is a documentary recording delicacies in Qingdao.</p>
+    <p>Watch the video and you will know more about this city in terms of food, such as what the seafood market there looks like, what are the satisfying places to find delicious snacks...</p>
+    </div>
+  
+     <!-- Inline the video of Exploring Beer with a controller so that we can play, pause or adjust the volume as we want-->
+
+     <h3>Play it if you are interested</h3>
+
+     <p id="center">(Only Chinese subtitles available now)</p>
+     
+     <video id="Video" width="960" height="540" controls>
+      <source src="a_bite_of_qingdao_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+
+    <!-- This is a slideshow image gallery to display some photos related to my video work -->
+
+    <h3>Get to know the behind-the-scenes story</h3>
+
+    <p>You probably think that shooting food-related videos must be enjoyable because you get to eat a lot of nice food along the way. But I will tell you no! </p>
+    <p>It's literally a torture to smell the food and not be able to eat it until you get a satisfying shot! Do you remember there's a big plate of seafood and a pint of beer at the end of the video? They were actually our lunch that day. We didn't start eating the dish until about two hours after it was served. We were experimenting with different camera angles, trying to find out the best way to present it.</p>
+
+
+    <!-- Slideshow container -->
+     
+    <div id="slideshow-container">
+
+      <!-- Full-width images with number and text block(title and comment) -->
+    
+      <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="Images/g31.JPEG" alt="Image failed to load" style="width:100%">
+      <div class="text-block"> 
+        <h4>Our Team</h4>
+        <p>This is our team of 5. We made this work together.</p>
+      </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="Images/g32.JPEG" alt="Image failed to load" style="width:100%">
+        <div class="text-block"> 
+          <h4>Our experiment</h4>
+          <p>We are keeping experimenting with different camera angles to find the best way to present the dish.</p>
+        </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="Images/g33.JPEG" alt="Image failed to load" style="width:100%">
+          <div class="text-block"> 
+            <h4>Our experiment</h4>
+            <p>We are keeping experimenting with different camera angles to find the best way to present the dish.</p>
+          </div>
+          </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="Images/g34.png" alt="Image failed to load" style="width:100%">
+        <div class="text-block"> 
+          <h4>Smells so good!</h4>
+          <p>In a restaurant we captured a little girl eating a kebab. She looks so content and it is clear from this that the food is fascinating.</p>
+        </div>
+        </div>
+  
+      <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="Images/g35.png" alt="Image failed to load" style="width:100%">
+      <div class="text-block"> 
+        <h4>Tastes so good!</h4>
+        <p>In a restaurant we captured a little girl eating a kebab. She looks so content and it is clear from this that the food is fascinating.</p>
+      </div>
+      </div>
+  
+      <!-- Next and previous buttons for visitors to flip over -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles below the photos-->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+
+
+  <!-- Add 2 social media buttons-->
+  <div id="socialButtons">
+  <p>Click to contact me or follow my feed</p>
+  <a target="_blank" href="https://www.facebook.com/profile.php?id=100083841635814">
+    <img src="Images/facebook.png" alt="Image failed to load">
+  </a>
+  <a target="_blank" href="https://vimeo.com/user153894036">
+    <img src="Images/vimeo.png" alt="Image failed to load">
+  </a>
+  </div>
+
+
+  <!-- This is a convenient link for visitors to go back to the top of this page -->
+  <p id="back"><a href="#cover">-Back to top-</a></p>
+
+</div>
+</body>
+</html>

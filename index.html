@@ -1,0 +1,138 @@
+<!-- This is the home page of my website-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Xinyi's Video World</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="top.css">
+    <script src="dark.js"></script>
+    
+</head>
+<body>
+
+<!-- A design for the top part of every page on my website -->
+
+<img id="cover" src="Images/cover.jpg" alt="Image failed to load">
+
+<div id="buttonSection"><button class="btn2" onclick="myFunction()">Toggle Mode</button></div>
+
+<h1>Welcome to Xinyi's Video World</h1>
+<hr>
+
+<!-- This is the navigation of my website -->
+
+<div id="navigation">
+    <a class="top" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="btn">Me and My Passion</button>
+                <div class="dropdown-menu">
+                    <a href="passion.html#me">About Me & My Passion</a><br>
+                    <hr>
+                    <a href="passion.html#site">About This Website</a>
+                </div>
+        </div> 
+        <div class="dropdown">
+            <button class="btn">Videos</button>
+                <div class="dropdown-menu">
+                    <a href="Exploring_Beer.html">Exploring Beer</a><br>
+                    <hr>
+                    <a href="Loving_Light_and_Shadow.html">Loving Light and Shadow</a>
+                    <p></p><hr>
+                    <a href="A_Bite_of_Qingdao.html">A Bite of Qingdao</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Skills and Tips</button>
+                <div class="dropdown-menu">
+                    <a href="Shooting.html">Shooting</a><br>
+                    <hr>
+                    <a href="Editing.html">Editing</a><br>
+                    <p></p><hr>
+                    <a href="learn_more.html">Learn More</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Site Map & Image Map</button>
+                <div class="dropdown-menu">
+                    <a href="sitemap.html">Site Map</a><br>
+                    <hr>
+                    <a href="imagemap.html">Image Map</a>
+                </div>
+        </div> 
+    <a class="top" href="feedback.html">Feedback</a>
+    <a class="top" href="sourcelog.html">Source Log</a>
+    <a class="top" href="storyboard.html">Storyboard</a>
+    <a class="top" href="reflection.html">Reflection</a>
+    <a class="top" href="Validation.html">Validation</a>
+    <a class="top" href="assignment.html">Assignment</a>
+</div>
+<hr>
+
+<!-- This is the section below the navigation -->
+
+<div id="main-body">
+    <p class="p1">Want to watch some videos to relax?</p>
+    <p class="p2">Click each poster below to find out more.</p>
+    <div id="posters">
+        <!-- To turn an image into a link -->
+        <a href="Exploring_Beer.html">
+            <img class="poster" src="Images/Exploring_Beer_Poster.jpg" alt="Image failed to load">
+        </a>
+        <a href="Loving_Light_and_Shadow.html">
+            <img class="poster" src="Images/Loving_Light_and_Shadow_Poster.jpg" alt="Image failed to load">
+        </a>
+        <a href="A_Bite_of_Qingdao.html">
+            <img id="horizontalVersion" src="Images/A_Bite_of_Qingdao_poster.PNG" alt="Image failed to load">
+        </a>
+    </div>
+
+    <p class="p1">Who is Xinyi and why she made these videos?</p>
+
+    <div id="introduction">
+        <img id="myphoto2" src="Images/myphoto2.jpg" alt="Image failed to load">
+        <p>This is a Chinese girl who likes to make videos.</p>
+        <p>I started to learn video shooting and editing in 2018.</p>
+        <p>These are the editing softwares that I usually use: Pr, fcp and Ae.</p>
+        <p>I own a Sony a7m3 DSLR and I shoot almost all of my videos with it.</p>
+    </div>
+
+    <p id="p3">Can everyone make a video?</p>
+
+    <p class="p2">For those of you who like videos</p>
+
+    <!-- Inline a video on this page with a controller so that we can play, pause or adjust the volume as we want-->
+
+    <video id="introVideo" width="640" height="360" controls>
+        <source src="6780_ass_part2_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+    <div id="VideoIntroduction">
+        <p>This is a video for those of you who may want to become a video creator but feel afraid to start or don't know how to start, just like I once was. 
+            Play it and then you will know how I started my journey by listening to my story of making videos.
+        </p>
+    </div>
+
+    <!-- Add social media buttons-->
+   
+    <div id="socialButtons">
+        <p>Click to contact me or follow my feed</p>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100083841635814">
+            <img src="Images/facebook.png" alt="Image failed to load">
+        </a>
+        <a target="_blank" href="https://vimeo.com/user153894036">
+            <img src="Images/vimeo.png" alt="Image failed to load">
+        </a>
+    </div>
+    
+
+    <!-- This is a convenient link for visitors to go back to the top of this page -->
+    <div><p id="back"><a href="#cover">-Back to top-</a></p></div>
+
+</div>
+</body>
+</html>
